@@ -1,0 +1,21 @@
+_id: req_1f153e1d99404493aab9418ad26cca4b
+type: Request
+parentId: fld_c839d923cd57476586528d38ca1d7706
+modified: 1660065707736
+created: 1660064577446
+url: "{{ _.baseURL }}/servico/listar"
+name: listar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653117057955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

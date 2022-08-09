@@ -1,0 +1,33 @@
+_id: req_162f2981e88f47a88dc57854a2e2324e
+type: Request
+parentId: fld_c839d923cd57476586528d38ca1d7706
+modified: 1660065691348
+created: 1660064577495
+url: "{{ _.baseURL }}/servico/criar"
+name: criar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomeServico": "Manutenção especial",
+    	"preco": 500.00,
+    	"quantidade": 1,
+    	"unidade": "UN",
+    	"observacoes": "Sem imposto"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7733a7cf6c78435cbd67ade69a2fedb7
+authentication: {}
+metaSortKey: -1651269823059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_f869010bf8ed4e6a9704e6d4afdce88b
+type: Request
+parentId: fld_76757a2a6256441ebebee37f43cc6445
+modified: 1660064605645
+created: 1660064605645
+url: "{{ _.baseURL }}/ordemservico/excluir"
+name: excluir
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_351d45a18d294dca833f5296c31f4d40
+    name: id
+    value: "39"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1649884396924.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,47 @@
+_id: req_3340fe089879496f9c26330f2a9d35cd
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594390
+created: 1660064594390
+url: "{{ _.baseURL }}/pessoa/alterar"
+name: alterar
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 62,
+    		"nome": "João Paulo",
+    		"razaoSocial": "João Paulo LTDA",
+    		"cpfCnpj": "00000000010",
+    		"tipoPessoa": "fisica",
+    		"nascimento": null,
+    		"contatoTelefone": null,
+    		"contatoCelular": null,
+    		"email": null,
+    		"endereco": {
+    			"logradouro": null,
+    			"numero": "150",
+    			"complemento": null,
+    			"bairro": "Baiacu",
+    			"cep": null,
+    			"idCidade": null,
+    			"idEstado": null,
+    			"idPais": null
+    		}
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_557ff1ecb2434282854b7371dbd076c7
+authentication: {}
+metaSortKey: -1650346205636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_fdac85ad5725485bacfe8376626fba66
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594425
+created: 1660064594425
+url: "{{ _.baseURL }}/pessoa/pesquisanome"
+name: pesquisarNome
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_908561ac0ff6471eb50bd25b09440109
+    name: nome
+    value: R
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1652193440482
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

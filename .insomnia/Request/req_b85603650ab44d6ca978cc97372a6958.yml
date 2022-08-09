@@ -1,0 +1,25 @@
+_id: req_b85603650ab44d6ca978cc97372a6958
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594407
+created: 1660064594407
+url: "{{ _.baseURL }}/pessoa/excluir"
+name: excluir
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_2bc2b31043f24a6b8c0dca11d9f369ec
+    name: id
+    value: "62"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1649884396924.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_5177a0695e6e48a980895ed3e0566647
+type: Request
+parentId: fld_c839d923cd57476586528d38ca1d7706
+modified: 1660065699113
+created: 1660064577471
+url: "{{ _.baseURL }}/servico/buscar"
+name: buscar
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_908561ac0ff6471eb50bd25b09440109
+    name: id
+    value: "2"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1653117057905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

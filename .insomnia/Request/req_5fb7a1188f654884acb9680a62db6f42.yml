@@ -1,0 +1,25 @@
+_id: req_5fb7a1188f654884acb9680a62db6f42
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594355
+created: 1660064594355
+url: "{{ _.baseURL }}/pessoa/buscar"
+name: buscar
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_908561ac0ff6471eb50bd25b09440109
+    name: id
+    value: "62"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1653117057905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

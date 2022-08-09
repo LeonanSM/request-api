@@ -1,0 +1,25 @@
+_id: req_62d7b09820d44527acbfa4aeb4c52513
+type: Request
+parentId: fld_c7b1df9d29b24c5592b7c7439e953484
+modified: 1660064624139
+created: 1660064624139
+url: "{{ _.baseURL }}/jwt"
+name: jwtTest
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f068c366e0864447a5a632933ab2d990
+    name: username
+    value: samy
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1657841352719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

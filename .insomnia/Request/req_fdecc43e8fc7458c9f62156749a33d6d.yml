@@ -1,0 +1,42 @@
+_id: req_fdecc43e8fc7458c9f62156749a33d6d
+type: Request
+parentId: fld_76757a2a6256441ebebee37f43cc6445
+modified: 1660064605619
+created: 1660064605619
+url: "{{ _.baseURL }}/ordemservico/alterar"
+name: alterar
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 49,
+    		"descricaoServico": "Executar no local 3",
+    		"valorBruto": 150.00,
+    		"valorLiquido": 100.00,
+    		"valorDesconto": 0.00,
+    		"percentualDesconto": 0.0,
+    		"data": null,
+    		"inicio": null,
+    		"fim": null,
+    		"status": null
+    			}
+parameters:
+  - id: pair_f57c4b8fc5464b509d1e9a6793634732
+    name: id
+    value: "40"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_557ff1ecb2434282854b7371dbd076c7
+authentication: {}
+metaSortKey: -1650346205636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

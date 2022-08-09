@@ -1,0 +1,25 @@
+_id: req_663b2e824c39406096a94a8f70c64773
+type: Request
+parentId: fld_c839d923cd57476586528d38ca1d7706
+modified: 1660064577543
+created: 1660064577543
+url: "{{ _.baseURL }}/servico/excluir"
+name: excluir
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_351d45a18d294dca833f5296c31f4d40
+    name: id
+    value: "2"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1649884396924.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

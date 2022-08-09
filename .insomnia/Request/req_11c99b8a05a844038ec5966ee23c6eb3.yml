@@ -1,0 +1,21 @@
+_id: req_11c99b8a05a844038ec5966ee23c6eb3
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594330
+created: 1660064594330
+url: "{{ _.baseURL }}/pessoa/listar"
+name: listar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653117057955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

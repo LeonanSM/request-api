@@ -1,0 +1,21 @@
+_id: req_a9ea22a483e74a07a418eb5a8f169e1c
+type: Request
+parentId: fld_76757a2a6256441ebebee37f43cc6445
+modified: 1660064605547
+created: 1660064605547
+url: "{{ _.baseURL }}/ordemservico/listar"
+name: listar
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1653117057955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

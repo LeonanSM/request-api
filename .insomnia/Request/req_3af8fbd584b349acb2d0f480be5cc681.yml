@@ -1,0 +1,38 @@
+_id: req_3af8fbd584b349acb2d0f480be5cc681
+type: Request
+parentId: fld_76757a2a6256441ebebee37f43cc6445
+modified: 1660064605594
+created: 1660064605594
+url: "{{ _.baseURL }}/ordemservico/criar"
+name: criar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    	{
+    		"descricaoServico": "Executar no local 3",
+    		"valorBruto": 100.00,
+    		"valorLiquido": 100.00,
+    		"valorDesconto": 0.00,
+    		"percentualDesconto": 0.0,
+    		"data": null,
+    		"inicio": null,
+    		"fim": null,
+    		"status": null
+    			}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7733a7cf6c78435cbd67ade69a2fedb7
+authentication: {}
+metaSortKey: -1651269823059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

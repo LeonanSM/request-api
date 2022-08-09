@@ -1,0 +1,47 @@
+_id: req_c6ad211478e74d709c7970beef0c06c7
+type: Request
+parentId: fld_9f1441967de64eebadfc30c7cb2aa9db
+modified: 1660064594372
+created: 1660064594372
+url: "{{ _.baseURL }}/pessoa/criar"
+name: criar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"nome": "João Paulo",
+    	"razaoSocial": "João Paulo LTDA",
+    	"cpfCnpj": "00000000000",
+    	"tipoPessoa": "fisica",
+    	"nascimento": null,
+    	"contatoTelefone": null,
+    	"contatoCelular": null,
+    	"email": null,
+    	"endereco": {
+    		"logradouro": "RuaBarao",
+    		"numero": 150,
+    		"complemento": null,
+    		"bairro": "Baiacu",
+    		"cep": null,
+    		"idCidade": null,
+    		"idEstado": null,
+    		"idPais": null
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7733a7cf6c78435cbd67ade69a2fedb7
+authentication: {}
+metaSortKey: -1651269823059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_d399433e883e4274886f7faa70d3ef5e
+type: Request
+parentId: fld_c839d923cd57476586528d38ca1d7706
+modified: 1660064577518
+created: 1660064577518
+url: "{{ _.baseURL }}/servico/alterar"
+name: alterar
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_557ff1ecb2434282854b7371dbd076c7
+authentication: {}
+metaSortKey: -1650346205636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
